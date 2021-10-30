@@ -49,6 +49,9 @@
 </br>
 <a href="https://www.w3schools.com/html/html_links.asp"> <img src="/images/smiley.gif" alt="html link"></a>
 <br>
+<img src="images/download.jpg" style="width: 600px;">
+ <br>
+ <br>
     <a href="https://www.w3schools.com/html/html_links.asp" target="_blank">Html basic</a>               
    <br>
    <br>
