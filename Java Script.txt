@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML</title>
+    <style>
+      h1 {
+        border: 13px solid steelblue;
+        background-color: turquoise;
+        font-weight: bolder;
+        font-size: 250px;
+      }
+      h2{
+        background-color: lawngreen;
+        font-variant: small-caps;
+        font-size: 300px;
+        border: 20px solid yellow;
+      }
+      a:link, a:visited{
+        font-size: 100px;
+        text-decoration: none;
+        color: white;
+        background-color: teal;
+        
+
+      }
+      a:hover{
+        color: yellow;
+        text-decoration:underline;
+        background-color:steelblue;
+      }
+      a:active{
+        color: tomato;
+        
+
+      }
+    </style>
+  </head>
+  <body style="text-align: center;margin: 150px;">
+    <h1>HTML Index</h1>
+    <h2>basics</h2>
+
+    <p id="name"></p>
+    <p id="demo"></p>
+    <button onclick="document.location='https://www.youtube.com/watch?v=YqeW9_5kURI'" target="_blank">youtube</button>
+  </br>
+</br>
+<a href="https://www.w3schools.com/html/html_links.asp"> <img src="/images/smiley.gif" alt="html link"></a>
+<br>
+    <a href="https://www.w3schools.com/html/html_links.asp" target="_blank">Html basic</a>               
+   <br>
+   <br>
+    <button type="button" onclick="document.write(5 + 6)">Try it</button>
+    <br />
+    <button onclick="document.getElementById('myImage').src='/images/pic_bulbon.gif'">
+      turn on the light
+    </button>
+    <img id="myImage" src="/images/pic_bulboff.gif" width="120px" />
+    <button onclick="document.getElementById('myImage').src='/images/pic_bulboff.gif'">
+      turn off the light
+    </button>
+    <br />
+    <button onclick="window.print()">Print this page</button>
+    <br />
+    <script>
+      let tool = { price: 15, rate: 30 };
+      console.log(typeof tool);
+      console.log(tool.price);
+      console.log(tool.rate);
+
+      let x, y, z; // Statement 1
+      x = 5; // Statement 2
+      y = 6; // Statement 3
+      z = x + y; // Statement 4
+
+      document.getElementById("demo").innerHTML =
+        "The value of z is " + z + ".";
+      // console.log(z);
+      // document.write(10 + 40);
+      // alert(20 + 20);
+      // window.alert(11 + 2);
+
+      const place = ["hyd", "suchitra", "kompally"];
+      place[0] = "uppal";
+      document.getElementById("name").innerHTML = place[1];
+      console.log(place);
+      console.log(place.length);
+    </script>
+  </body>
+</html>
